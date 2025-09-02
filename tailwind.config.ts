@@ -26,7 +26,9 @@ export default {
 				foreground: 'hsl(var(--foreground))',
 				primary: {
 					DEFAULT: 'hsl(var(--primary))',
-					foreground: 'hsl(var(--primary-foreground))'
+					foreground: 'hsl(var(--primary-foreground))',
+					hover: 'hsl(var(--primary-hover))',
+					glow: 'hsl(var(--primary-glow))'
 				},
 				secondary: {
 					DEFAULT: 'hsl(var(--secondary))',
@@ -61,7 +63,37 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
+				},
+				earth: {
+					brown: 'hsl(var(--earth-brown))',
+				},
+				sky: {
+					blue: 'hsl(var(--sky-blue))',
+				},
+				wheat: {
+					gold: 'hsl(var(--wheat-gold))',
+				},
+				leaf: {
+					green: 'hsl(var(--leaf-green))',
+				},
+				field: {
+					green: 'hsl(var(--field-green))',
 				}
+			},
+			backgroundImage: {
+				'gradient-primary': 'var(--gradient-primary)',
+				'gradient-earth': 'var(--gradient-earth)',
+				'gradient-sunrise': 'var(--gradient-sunrise)',
+				'gradient-field': 'var(--gradient-field)',
+			},
+			boxShadow: {
+				'soft': 'var(--shadow-soft)',
+				'medium': 'var(--shadow-medium)',
+				'glow': 'var(--shadow-glow)',
+			},
+			transitionTimingFunction: {
+				'smooth': 'cubic-bezier(0.4, 0, 0.2, 1)',
+				'spring': 'cubic-bezier(0.34, 1.56, 0.64, 1)',
 			},
 			borderRadius: {
 				lg: 'var(--radius)',
